@@ -55,14 +55,14 @@ This is more reliable than simply checking the timestamp because multiple docume
 
 🛠️ Technologies Used
 
-1. Python	Pipeline development
-2. Firebase / Firestore	Source database
-3. Google Sheets API	Destination
-4. Google Service Account	Authentication
-5. Firebase Admin SDK	Firestore access
-6. Google API Client	Google Sheets interaction
-7. JSON	Pipeline state management
-8. Git / GitHub	Version control
+1. Python	- Pipeline development
+2. Firebase / Firestore	- Source database
+3. Google Sheets - Destination
+4. Google Service Account	- Authentication
+5. Firebase Admin SDK	- Firestore access
+6. Google API Client	- Google Sheets interaction
+7. JSON	- Pipeline state management
+8. Git / GitHub	- Version control
 
 📊 Data Flow
 
@@ -83,6 +83,7 @@ Field selection
 Data type conversion
 Column ordering
 Null handling
+
 Load
 
 Append the transformed records to Google Sheets.
