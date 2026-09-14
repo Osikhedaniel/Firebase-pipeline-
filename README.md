@@ -8,7 +8,7 @@ Instead of exporting the entire Firestore collection every time, the pipeline us
 
 🎯 Problem Statement
 
-Zion tech hub a tech training school collects student registration data through an online form.
+Zion tech hub, a tech training school collects student registration data through an online form.
 
 Every registration is stored in a Firestore collection:
 
@@ -30,7 +30,7 @@ The pipeline remembers the position of the last successfully processed record an
 
 The pipeline uses two values to track its progress:
 
-registered_at
+registered_at,
 document_id
 
 The timestamp determines the chronological position of a record, while the Firestore document ID acts as a tie-breaker when multiple records have the same timestamp.
